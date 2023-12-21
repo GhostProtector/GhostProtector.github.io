@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap Css/Js-->
+    <script src="Vendor/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="/Vendor/bootstrap-5.3.2-dist/css/bootstrap.css">
+    <!--JQuery-->
+    <script src="Vendor/jquery-3.7.1.min.js"></script>
+    <!--Icon Kütüphanesi-->
+    <script src="Vendor/fontawesome-free-6.5.1-web/js/all.js"></script>
+    <link rel="icon" href="Vendor/fontawesome-free-6.5.1-web/css/all.css">
+    <!--Özel Css/Js-->
+    <script src="Assets/js/index.js"></script>
+    <link rel="stylesheet" href="Assets/css/style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <title>Document</title>
+</head>
+
+<body class="body">
+
+    <!--Navbar-->
+
+    <div class="topnav w-100" id="myTopnav">
+        <img src="Assets/image/Adsız tasarım-PhotoRoom.png-PhotoRoom.png" id="logo">
+        <div class="navbar-div">
+            <a href="#"></a>
+            <a href="#link5">Ana Sayfa</a>
+            <a href="#link4">Hakkımızda</a>
+            <a href="#link3">Çözüm Ortakları</a>
+            <a href="#link2">Referanslar</a>
+            <a href="#link1">İletişim</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </div>
+
+    <!--Navbar-->
+
+    <!--Slider-->
+
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="First slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="Assets/image/Temsili Görsel.png" class="w-100 d-block" alt="First slide" />
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/image/Temsili Görsel (1).png" class="w-100 d-block" alt="Second slide" />
+            </div>
+            <div class="carousel-item">
+                <img src="Assets/image/Temsili Görsel (2).png" class="w-100 d-block" alt="Third slide" />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Slider-->
+
+    <br><br><br>
+
+    <!--Favori Ürünler-->
+
+    <!-- <div class="container yazi-renk text-center ">
+        <div class="row">
+            <h3 class="float-start">Favori Ürünler</h3> <br>
+            <hr class="cizgi col-lg-3 col-md-5 col-sm-1">
+        </div>
+
+    </div> -->
+
+    <div class="container yazi-renk text-center">
+        <div class="row">
+            <div class="col">
+                <h3 class="float-start">Favori Ürünler</h3> <br>
+                <hr class="cizgi col-lg-3 col-md-5 img-fluid">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-3 mavi">
+        <div class="row">
+            <!-- İlk div yuvarlak görsel container'ı -->
+            <div class="col-md-4 image-container">
+                <img src="Assets/image/WhatsApp Görsel 2023-12-19 saat 19.50.44_d86ac42e.jpg" alt="Örnek Görsel"
+                    class="img-fluid gorsel">
+            </div>
+            <!-- İkinci div içeriği container'ı -->
+            <div class="col-md-8 content-container mt-3">
+                <h2>YC14 Tartım Göstergesi </h2>
+                <p>ATS YC-14 toz, sıvı veya granül yapıdaki malzemelerin belirli miktarlarda tartılarak dolum yapılması
+                    amacı ile tasarlanmış pano tipi yüksek performanslı tartım göstergesidir.
+
+                    Kolay kullanımı ve menü yapısı ile kullanıcı dostudur.
+                    Dolum değerleri tek tuş ile kolayca girilebilir.
+
+                    Dolum şekillerine göre seçilebilir dolum modlarına sahiptir. Dolum makinalarında gerekli temel giriş
+                    çıkışlara uygun olarak dizayn edilmiştir.
+
+                    22mm led display boyutu ile ekran uzaktan kolayca görülebilir.
+
+                    Tüm fonksiyonlara modbus üzerinden erişilebilir. PLC ihtiyacı olmadan HMI Operatör Panel üzerinden
+                    sıfırlama, durdurma, başlatma, set değerleri girme, kalibrasyon gibi tüm işlemler yapılabilir. <a
+                        href="#" class="float-end mt-5 text-decoration-none urun-link">Teknik özellikler için
+                        tıklayınız.</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3 mavi">
+        <div class="row">
+            <!-- İlk div yuvarlak görsel container'ı -->
+            <div class="col-md-4 image-container">
+                <img src="Assets/image/WhatsApp Görsel 2023-12-19 saat 19.50.43_71c6ee47.jpg" alt="Örnek Görsel"
+                    class="img-fluid gorsel">
+            </div>
+            <!-- İkinci div içeriği container'ı -->
+            <div class="col-md-8 content-container mt-3">
+                <h2>NPI Bant Kantarı Tartım Göstergesi</h2>
+                <p>NPI, bant konveyör sistemleri üzerinde taşınan toz veya granül yapıdaki dökme malzemelerin tartılması
+                    için tasarlanmış yüksek performanslı bant kantarı tartım göstergesidir.
+
+                    Bant konveyör üzerinden geçen malzeme miktarı anlık olarak izlenebilir, gfeçen toplam malzeme
+                    miktarı görülebilir ve son 30 gün boyunca geçen günlük malzeme kayıt altına alınır.
+
+                    Üzerinde bulunan haberleşme portları sayesinde ölçülen değerler PLC / DCS sistemlerine kolayca
+                    aktarılabilir. <a href="#" class="float-end mt-5 text-decoration-none urun-link">Teknik özellikler
+                        için tıklayınız.</a> </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3 mavi">
+        <div class="row">
+            <!-- İlk div yuvarlak görsel container'ı -->
+            <div class="col-md-4 image-container">
+                <img src="Assets/image/WhatsApp Görsel 2023-12-19 saat 19.50.44_7010d293.jpg" alt="Örnek Görsel"
+                    class="img-fluid gorsel">
+            </div>
+            <!-- İkinci div içeriği container'ı -->
+            <div class="col-md-8 content-container mt-3">
+                <h2>AT-2 Tartım Göstergesi</h2>
+                <p>AT-2 endüstriyel tartım ve dolum uygulamaları için tasarlanmış panel tipi yüksek performanslı tartım
+                    göstergesidir.
+
+                    Kullanıcı tarafından seçilebilir ölçüm hızı ve dijital filtre algoritması ile titreşimli ortamlarda
+                    kararlı ölçüm imkanı sağlar.
+
+                    Üzerinde standart olarak bulunan RS-232 ve RS-485 haberleşme portları ve modbus protokolü sayesinde
+                    PLC ve diğer otomasyon sistemlerine kolayca adapte edilebilir.
+
+                    Kompakt boyutları sayesinde çoklu uygulamarda yer tasarrufu sağlar. <a href="#"
+                        class="float-end mt-5 text-decoration-none urun-link">Teknik özellikler için tıklayınız.</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Favori Ürünler-->
+
+    <br><br><br>
+
+    <div class="container yazi-renk text-center ">
+        <div class="row">
+            <div class="col">
+                <h3 class="float-start">Yönetim Kadrosu</h3> <br>
+                <hr class="cizgi col-lg-3 col-md-5 img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!--Yönetim Kadrosu-->
+
+    <div class="container-fluid">
+        <div class="row justify-content-center text-center">
+
+            <div class="card col-lg-3 col-md-8 col-sm-12 m-2 mavi">
+                <img class="card-img-top mt-1" src="Assets/image/adam.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Kadro</h4>
+                    <p class="card-text">Çalışan</p>
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-md-8 col-sm-12 m-2 mavi">
+                <img class="card-img-top mt-1" src="Assets/image/adam.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Kadro</h4>
+                    <p class="card-text">Çalışan</p>
+                </div>
+            </div>
+
+            <div class="card col-lg-3 col-md-8 col-sm-12 m-2 mavi">
+                <img class="card-img-top mt-1" src="Assets/image/adam.png" alt="Title" />
+                <div class="card-body">
+                    <h4 class="card-title">Kadro</h4>
+                    <p class="card-text">Çalışan</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Yönetim Kadrosu-->
+
+    <br><br><br>
+
+    <!--Footer-->
+
+    <!-- <footer>
+        <div class="container-fluid kirmizi footer yon-kadro-bg text-center align-items-center">
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-lg-3 kirmizi ftr-div">
+                    <img src="Assets/image/Adsız tasarım-PhotoRoom.png-PhotoRoom.png" class="kirmizi logo-2 fw-bolder">
+                </div>
+                
+                <div class="col-lg-3 kirmizi ftr-div">
+                    2
+                </div>
+
+                <div class="col-lg-3 kirmizi ftr-div">
+                    3
+                </div>
+                    
+                <div class="col-lg-3 kirmizi ftr-div">
+                    4
+                </div>
+
+            </div>
+        </div>
+    </footer> -->
+
+    <footer class="mt-5 yon-kadro-bg">
+        <div class="container">
+          <div class="row">
+            <!-- Logo -->
+            <div class="col-md-3 footer-col mt-5">
+              <h4><img src="Assets/image/Adsız tasarım-PhotoRoom.png-PhotoRoom.png" alt=""></h4>
+              <p>Şirket slogan bölümü.</p>
+            </div>
+            <!-- Sosyal Medya -->
+            <div class="col-md-3 footer-col mt-5">
+              <h4>Sosyal Medya</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook text-white"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter text-white"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin text-white"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram text-white"></i></a></li>
+              </ul>
+            </div>
+            <!-- Hakkımızda -->
+            <div class="col-md-3 footer-col mt-5">
+              <h4>Hakkımızda</h4>
+              <p>Hakkımızda Kısmı</p>
+            </div>
+            <!-- İletişim -->
+            <div class="col-md-3 footer-col mt-5">
+              <h4>İletişim</h4>
+              <p>Adres: 1234 Sokak, Şehir</p>
+              <p>Email: info@example.com</p>
+              <p>Telefon: (123) 456-7890</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!--Footer-->
+
+</body>
+
+</html>
